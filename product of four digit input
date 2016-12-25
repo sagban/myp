@@ -1,0 +1,14 @@
+
+#include <stdio.h>
+
+void main(){
+int i,x,a,b;
+    printf("enter four digit number\n");
+scanf("%d",&x);
+i=1;
+a=0;
+while(i>0)
+{b=x/i;a=(b%10)+a;i=i*10;}
+printf("sum of the digits of the entered no. is = %d",a);
+
+}

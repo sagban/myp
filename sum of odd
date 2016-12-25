@@ -1,0 +1,14 @@
+#include<stdio.h>
+int main()
+{
+int x,res;
+x=1;
+res=0;
+while(x<=99)
+{
+res=res+x;
+x=x+2;
+}
+printf("sum =%d",res);
+return 0;
+}

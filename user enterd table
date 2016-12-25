@@ -1,0 +1,13 @@
+#include<stdio.h>
+void main()
+{
+int x,count,res;
+printf("enter any no., whose table you want");
+scanf("%d",&x);
+count=1;
+while(count<=10)
+{
+res=count*x;
+printf("%d \n",res);
+count++;
+}}

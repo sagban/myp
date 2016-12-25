@@ -1,0 +1,13 @@
+
+#include <stdio.h>
+
+void main(){
+int n1,n2,n3,n4,n5;
+printf("this program is all about swappings of numbers.so you have to put two numbers A & B, but provided that B>A.
+Enter the number A, Enter the number B,n1,n2");
+scanf("%d,%d", &n1,&n2);n3=n2-n1;n4=n1+n3;n5=n2-n3;
+
+printf("swapped A,Swapped B=%d,%d",n4,n5);
+
+
+}

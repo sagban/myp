@@ -1,0 +1,8 @@
+#include<stdio.h>
+void main()
+{ int x,y;
+x=65;y=97;printf("capital alphabates are");while(x<=92)
+{printf("\n %c",x);x++;}
+printf("small alphabates are");
+while(y<=123)
+{printf("%c \n");y++;}}

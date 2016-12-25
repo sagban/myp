@@ -1,0 +1,15 @@
+
+#include <stdio.h>
+
+void main(){
+int x,count;
+    printf("enter any no..");
+scanf("%d",&x);
+count=0;
+while(x>0)
+{
+x=x/10;
+count++;
+}
+printf("%d",count);
+}

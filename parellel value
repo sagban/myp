@@ -1,0 +1,9 @@
+
+#include <stdio.h>
+
+void main(){
+char x;
+    printf("enter the alphabate");
+scanf("%c",&x);
+printf("parell value is=%d",x);
+}

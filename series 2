@@ -1,0 +1,15 @@
+
+#include <stdio.h>
+
+void main(){
+float x,i,f,res;
+    printf("enter any no.");
+scanf("%f",&x);
+i=1;res=0;f=1;
+while(i<=x)
+{
+f=f*i;
+res=res+(i/f);
+i++;
+}
+printf("result=%f",res);}

@@ -1,0 +1,10 @@
+#include<stdio.h>
+int main()
+{
+char x;
+int y;
+printf("enter the small alphabate");
+scanf("%c",&x);
+x=x-32;
+printf("%c",x);
+}

@@ -1,0 +1,14 @@
+
+#include <stdio.h>
+
+void main(){
+int x;
+x=0;
+while(x<=98)
+{
+x=x+2;
+printf("%d \n",x);
+x+2;
+}
+
+}

@@ -1,0 +1,23 @@
+
+#include <stdio.h>
+
+void main(){
+int a,b,c,d,e,av;
+    printf("enter any five numbers");
+scanf("%d,%d,%d,%d,%d",&a,&b,&c,&d,&e);
+av=(a+b+c+d+e)/5;
+if(a>av)
+printf("a is larger than the average value \n",a);
+if(b>av)
+printf("b is larger than the average value \n",b);
+
+if(c>av)
+printf("c is larger than the average value \n",c);
+
+if(d>av)
+printf("d is larger than the average value \n",d);
+
+if(e>av)
+printf("e is larger than the average value \n",e);
+}
+

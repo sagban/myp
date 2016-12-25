@@ -1,0 +1,10 @@
+#include<stdio.h>
+int main()
+{
+float r;
+int t;
+printf("enter any real number");
+scanf("%f",&r);
+t=r;
+printf("intregal value is=%d",t);
+return 0;}
